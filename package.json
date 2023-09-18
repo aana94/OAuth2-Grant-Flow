@@ -1,0 +1,20 @@
+{
+  "name": "oauth2-grant-flow",
+  "version": "1.0.0",
+  "description": "enable mfa",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Aanchal",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "mongosh": "^2.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth": "^2.0.0"
+  }
+}
